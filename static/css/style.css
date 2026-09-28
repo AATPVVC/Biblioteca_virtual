@@ -75,7 +75,8 @@ body {
     font-size: 14px;
 }
 .carrito {
-    height: 18px;
+    width: 50%;
+    height: 50px;
     width: auto;
 }
 .container {
@@ -192,12 +193,12 @@ body {
 
 .ordenes {
     width: 50%;
-    height: 70px;
-    object-fit: cover;
+    height: 110px;
+    
 }
 
 .img-ordenes p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     margin: 8px 10px 2px 10px;
     color: #000000;
