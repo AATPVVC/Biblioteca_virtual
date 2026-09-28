@@ -23,7 +23,7 @@ body {
     gap: 8px;
 }
 .logito {
-    height: 30px;
+    height: 50px;
     width: auto;
 }
 .logo h1 {
@@ -101,11 +101,13 @@ body {
     align-items: center;
     gap: 8px;
     background-color: #ECEFF4;
+    
 }
 .comidas {
-    height: 110px;
-    width: 110px;
-    object-fit: cover;
+    height: 90px;
+    width: 120px;
+    display: flex;
+   
 }
 .imagenes p {
     font-size: 12px;
@@ -179,11 +181,13 @@ body {
 }
 
 .img-ordenes {
+    display: flex;
     position: relative;
     background-color: #FFFFFF;
     border: 1px solid #E0E0E0;
     padding-bottom: 12px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+
 }
 
 .ordenes {
@@ -193,7 +197,7 @@ body {
 }
 
 .img-ordenes p {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     margin: 8px 10px 2px 10px;
     color: #000000;
@@ -227,4 +231,12 @@ body {
 
 .img-ordenes button:hover {
     background-color: rgb(16, 16, 114);
+}
+.ordenes-texto {
+    display: flex;
+    flex-direction: column;
+}
+.ordenes-texto2 {
+    display: flex;
+    justify-content: space-between;
 }
