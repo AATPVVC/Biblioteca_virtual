@@ -8,8 +8,8 @@ function compras(idElemento) {
 const galleryImg = document.getElementById("imagen-Grandota");
 
 
-const originalImageSrc = "static/images/comida-mexicana.jpg";
-const hoverImageSrc = "static/images/comida-mexicana2.jpg";
+const originalImageSrc = "static/video/primerVideo.mp4";
+const hoverImageSrc = "static/video/segundoVideo.mp4";
 
 
 
