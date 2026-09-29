@@ -15,10 +15,8 @@ const hoverImageSrc = "static/video/segundoVideo.mp4";
 
 galleryImg.addEventListener("mouseover", () => {
   galleryImg.src = hoverImageSrc;
-  
 });
 
 galleryImg.addEventListener("mouseout", () => {
   galleryImg.src = originalImageSrc;
-  
 });
